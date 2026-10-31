@@ -1,8 +1,8 @@
 # Rendered by scripts/render_homebrew.sh into mmogr/homebrew-tap on each
 # stable release. Edit this template in the gglib repository, not the tap.
 cask "gglib-gui" do
-  version "0.28.0"
-  sha256 "e5d0f29cac30f5da2bed11970284cd235de5a029ad73a2f218fd7ea47ab11b19"
+  version "0.29.0"
+  sha256 "c79365f2105c1b49d18f211bb566c1bda012deac86f79096b5e7568ff20eb216"
 
   url "https://github.com/mmogr/gglib/releases/download/v#{version}/gglib-gui-#{version}-aarch64-apple-darwin.dmg"
   name "GGLib GUI"
