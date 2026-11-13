@@ -3,20 +3,20 @@
 class Gglib < Formula
   desc "Local model runtime and OpenAI-compatible proxy for llama.cpp"
   homepage "https://github.com/mmogr/gglib"
-  version "0.34.0"
+  version "0.35.0"
   license "AGPL-3.0-only"
 
   on_macos do
     on_arm do
       url "https://github.com/mmogr/gglib/releases/download/v#{version}/gglib-#{version}-aarch64-apple-darwin.tar.gz"
-      sha256 "94f8ee010ef9a43b3a5221ddf9b10f173b276094e7d0b59aff2aeef79861faab"
+      sha256 "d2dbcbadfe364595f78eec9f863182bbf08f33c055f101e6620fcfe0432e2ac5"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/mmogr/gglib/releases/download/v#{version}/gglib-#{version}-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "0d65b8f791da667a74de34a8ff257734ca4690801e34ad620ddf6cd927246963"
+      sha256 "46c5d640e75c314d6386c17a5991f4046cd24b392e37a15c650187fcecf6657e"
     end
     depends_on "alsa-lib"
   end
