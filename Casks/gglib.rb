@@ -5,8 +5,8 @@
 # app carries in Contents/MacOS, linked onto PATH. The command alone, and
 # Linux, is the gglib-cli formula.
 cask "gglib" do
-  version "0.39.0"
-  sha256 "39ddf380d837bd6daa34e19dc37d9a91c03d3801eee98961d95da67e228e92a2"
+  version "0.39.1"
+  sha256 "b98694786c788473126db9e4cef3a8c494fd15b68dc518d3429edcbfbc5c336c"
 
   url "https://github.com/mmogr/gglib/releases/download/v#{version}/gglib-gui-#{version}-aarch64-apple-darwin.dmg"
   name "gglib"
